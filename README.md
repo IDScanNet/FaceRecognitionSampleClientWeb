@@ -1,6 +1,6 @@
 # FaceRecognitionSampleClientWeb. API Example:
 ***
-Endpoint: **http://rabbit.idscan.net/upload.php**
+Endpoint: **http://faces.idscan.net/upload.php**
 
 Token is required: **“token”: “[Authentication Token]”**
 
@@ -13,8 +13,8 @@ Returns the analytics after uploading the image.
 POST-query example:
 
     POST /upload.php HTTP/1.1
-    Host: rabbit.idscan.net
-    Referer: http://rabbit.idscan.net/upload.php
+    Host: faces.idscan.net
+    Referer: http://faces.idscan.net/upload.php
     User-Agent: Mozilla
     Content-Type: multipart/form-data; boundary=-------------573cf973d5228
     Content-Length: 288
@@ -36,8 +36,8 @@ Returns match of the 2 images.
 POST-query example: 
 
     POST /upload.php HTTP/1.1
-    Host: rabbit.idscan.net
-    Referer: http://rabbit.idscan.net/upload.php
+    Host: faces.idscan.net
+    Referer: http://faces.idscan.net/upload.php
     User-Agent: Mozilla
     Content-Type: multipart/form-data; boundary=-------------573cf973d5228
     Content-Length: 288
